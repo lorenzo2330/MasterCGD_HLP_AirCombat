@@ -1,0 +1,52 @@
+# ---------------------------------------------
+# Unreal Engine - cartelle generate
+# ---------------------------------------------
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Plugin: cartelle generate
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# ---------------------------------------------
+# File generati
+# ---------------------------------------------
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+*.sln.DotSettings.user
+*.log
+
+# ---------------------------------------------
+# IDE (Rider / Visual Studio / VS Code)
+# ---------------------------------------------
+.idea/
+.vs/
+.vscode/
+*.DotSettings.user
+
+# ---------------------------------------------
+# Compilati
+# ---------------------------------------------
+*.VC.db
+*.exe
+*.dll
+*.pdb
+*.ipa
+*.apk
+
+# ---------------------------------------------
+# OPZIONALE: decommenta per alleggerire il repository
+# (il progetto si apre lo stesso, ma con texture mancanti)
+# ---------------------------------------------
+# Assets/
+# Content/Megascans/
+# Content/Aircrafts/HE112B0/Textures/
